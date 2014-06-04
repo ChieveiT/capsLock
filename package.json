@@ -1,0 +1,29 @@
+{
+    "name": "capslock",
+    "description": "Caps Lock Observer",
+    "version": "1.0.0",
+    "keywords": ["capsLock", "capslock", "caps", "lock", "observe", "observer"],
+    "author": "Aadit M Shah (http://aaditmshah.github.io/) <aaditmshah@fastmail.fm>",
+    "main": "capsLock.js",
+    "maintainers": [{
+        "name": "Aadit M Shah",
+        "email": "aaditmshah@fastmail.fm",
+        "web": "http://aaditmshah.github.io/"
+    }],
+    "contributors": [{
+        "name": "Aadit M Shah",
+        "email": "aaditmshah@fastmail.fm",
+        "web": "http://aaditmshah.github.io/"
+    }],
+    "bugs": "https://github.com/aaditmshah/capsLock/issues",
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }],
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/aaditmshah/capsLock.git"
+    }],
+    "dependencies": {},
+    "homepage": "https://github.com/aaditmshah/capsLock"
+}
