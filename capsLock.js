@@ -1,11 +1,11 @@
 var on = (function (attachEvent) {
-    return addEventListener || attachEvent;
+    return window.addEventListener || attachEvent;
 }(function (event, listener) {
     this.attachEvent("on" + event, listener);
 }));
 
 var done = (function (detachEvent) {
-    return removeEventListener || detachEvent;
+    return window.removeEventListener || detachEvent;
 }(function (event, listener) {
     this.detachEvent("on" + event, listener);
 }));
