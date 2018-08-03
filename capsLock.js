@@ -17,6 +17,11 @@ var capsLock = (function (status, observers, apple, on, done) {
 
     capsLock.observe = function (observer) {
         observers.push(observer);
+        
+        return function () {
+          var index = observers.indexOf(observer);
+          observers.splice(index, 1);
+        };
     };
 
     on("focus", function () {
