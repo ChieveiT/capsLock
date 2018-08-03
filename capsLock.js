@@ -52,10 +52,8 @@ var capsLock = (function (status, observers, apple, on, done) {
 
         on("keyup", function (event) {
             var e = event || window.event;
-            if (pressed && e.keyCode === 20) {
-                setStatus(!status);
+            if (pressed && e.keyCode === 20)
                 pressed = false;
-            }
         });
     }
 
