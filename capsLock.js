@@ -24,7 +24,7 @@ var capsLock = (function (status, observers, apple, on, done) {
         };
     };
 
-    on("focus", function () {
+    on("focusin", function () {
         on("keypress", correctStatus);
     });
 
